@@ -1,0 +1,404 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.5759420251770433 -0.7527595365427555 -0.3188163480421013 5.015042158697154
+  position 2.2155569201019016 5.498939804732185 3.2975396612584187
+}
+Floor {
+  size 12 8
+  appearance Parquetry {
+    type "light strip"
+    textureTransform TextureTransform {
+      scale 0.4 0.4
+    }
+  }
+}
+Monitor {
+  translation -0.553993 0.7 -3.26636
+  rotation 0 -1 0 2.61799
+}
+Monitor {
+  translation -2.09841 0.7 -3.27329
+  rotation 0 -1 0 2.61799
+  name "monitor(3)"
+}
+Monitor {
+  translation -1.65525 0.7 -3.39338
+  rotation 0 1 0 -3.1415853071795863
+  name "monitor(2)"
+}
+Monitor {
+  translation -0.113217 0.7 -3.37945
+  rotation 0 1 0 -3.1415853071795863
+  name "monitor(4)"
+}
+Monitor {
+  translation -1.21955 0.7 -3.27017
+  rotation 0 -1 0 -2.6180053071795863
+  name "monitor(1)"
+}
+Monitor {
+  translation 0.330909 0.7 -3.25518
+  rotation 0 -1 0 -2.6180053071795863
+  name "monitor(5)"
+}
+DoubleFluorescentLamp {
+  translation -6.24439e-06 2.34 -3.83
+  rotation 9.58979e-09 -1 9.58976e-09 -1.5707953071795862
+}
+DoubleFluorescentLamp {
+  translation -1.49984 2.34 -3.81329
+  rotation 9.58979e-09 -1 9.58976e-09 -1.5707953071795862
+  name "double fuorescent lamp(1)"
+}
+OfficeChair {
+  hidden position_0_0 -5.664278995563337e-06
+  hidden rotation_1 0 -1 0 5.664244791218779e-06
+  translation -1.5826500000271266 0.0098710497945603 -2.3308800001052457
+  rotation 7.880133945202866e-06 0.9999999979637697 6.332743473840575e-05 -2.8797953077054563
+}
+OfficeChair {
+  hidden position_0_0 -5.664278995402033e-06
+  hidden rotation_1 0 -1 0 5.664244791218779e-06
+  translation -0.20286999997087019 0.009871049794560244 -2.3146400001047085
+  rotation -8.778763059025066e-06 0.9999999979637684 6.320915017732539e-05 2.8797900005281623
+  name "office chair(1)"
+}
+Wall {
+  translation 0 0 4
+  size 12 2.4 0.2
+}
+Wall {
+  translation 1.75 0 -4
+  name "wall(4)"
+  size 1.8 2.4 0.2
+}
+Sofa {
+  translation -5.28888 -2.84217e-13 1.45969
+}
+Sofa {
+  translation -5.27796 -2.07834e-13 -0.37443
+  name "sofa(1)"
+}
+Wall {
+  translation 4.92 0 -4
+  name "wall(5)"
+  size 2.15 2.4 0.2
+}
+Wall {
+  translation -4.27 0 -4
+  name "wall(1)"
+  size 3.45 2.4 0.2
+}
+TexturedBackgroundLight {
+  castShadows FALSE
+}
+Wall {
+  translation 5.93 0 -2.17796e-05
+  rotation 0 1 0 1.5708
+  name "wall(2)"
+  size 8 2.4 0.15
+}
+Wall {
+  translation -5.91 0 2.17091e-05
+  rotation 0 1 0 1.5708
+  name "wall(3)"
+  size 8 2.4 0.15
+}
+Window {
+  translation 0 0 -4
+  size 1.7 2.4 0.2
+  frameAppearance DEF BasicAppe MattePaint {
+    baseColor 0 0 0
+  }
+}
+Window {
+  translation -1.7 0 -4
+  name "window(1)"
+  size 1.7 2.4 0.2
+  frameAppearance MattePaint {
+    baseColor 0 0 0
+  }
+}
+Door {
+  hidden translation_5 1.9627188763138292e-10 0 0.0010000007574253733
+  translation 3.25 0 -4
+  size 1.2 2.4 0.2
+  position -5.312877149014615e-09
+  frameAppearance MattePaint {
+    baseColor 0 0 0
+  }
+}
+Table {
+  translation -0.88254 -9.41469e-14 -3.27164
+  rotation 0 1 0 -3.1415853071795863
+  size 3.4 0.7 1
+  trayAppearance BrushedAluminium {
+  }
+  legAppearance BrushedAluminium {
+  }
+}
+Keyboard {
+  translation -1.62696 0.7 -3.06697
+}
+Keyboard {
+  translation -0.00732954 0.7 -3.05773
+  rotation 0 1 0 4.07987e-06
+  name "keyboard(1)"
+}
+ComputerMouse {
+  translation 0.321829 0.6999607660684409 -3.00474
+  rotation 3.567976749897782e-17 1 9.98795104274766e-19 2.8798
+}
+ComputerMouse {
+  translation -1.30729 0.6999607660684409 -3.0585
+  rotation 1.2994806243463166e-16 1 4.721051972631695e-17 2.8798
+  name "computer mouse(1)"
+}
+RectangleArena {
+  translation -1.51656 0.01 0.712749
+  floorSize 5 5
+  floorAppearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "E:/RB_work0504/arena_floor_texture.png"
+      ]
+    }
+    roughness 1
+    metalness 0
+    textureTransform TextureTransform {
+      scale 0.1 0.1
+    }
+  }
+  wallThickness 0.03
+  wallHeight 0.2
+}
+Robot {
+  translation -0.6612083546882198 0.13813745269581634 -0.7840648977897975
+  rotation 0.06620965523588275 0.9976560874559092 0.017280414222836164 2.6322599341243027
+  children [
+    LED {
+      translation 0 0.04 0
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.333333 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.01
+            radius 0.03
+          }
+        }
+      ]
+    }
+    DistanceSensor {
+      translation 0 -0.11 0.07
+      rotation 0 0 -1 1.5708
+      name "DSudR"
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0 -0.11 -0.07
+      rotation 0 0 1 -1.5707953071795862
+      name "DSudL"
+      type "infra-red"
+    }
+    DistanceSensor {
+      translation 0.09 -0.03 0
+      name "DSfront"
+    }
+    Camera {
+      translation 0.075 4.68953e-14 0.03
+      rotation 0 1 0 -1.5707953071795862
+      name "CameraRight"
+    }
+    Camera {
+      translation 0.075 4.68953e-14 -0.03
+      rotation 0 1 0 -1.5707953071795862
+      name "CameraLeft"
+    }
+    Transform {
+      translation 0.075 4.68953e-14 -0.03
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.008
+            radius 0.004
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0.075 4.68953e-14 0.03
+      rotation 0 0 1 -1.5707953071795862
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0 0 0
+            roughness 1
+            metalness 0
+          }
+          geometry Cylinder {
+            height 0.008
+            radius 0.004
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0.09 -0.03 0
+      rotation 0 0 -1 1.5708
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.333333 0.333333 0
+            roughness 1
+            metalness 0
+          }
+          geometry Cone {
+            bottomRadius 0.006
+            height 0.02
+          }
+        }
+      ]
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 715.499593223371
+        axis 0 0 -1
+        anchor 6.100650592022197e-07 -0.0900016 0.1
+      }
+      device [
+        RotationalMotor {
+          name "motor right"
+        }
+      ]
+      endPoint Solid {
+        translation 6.100650592022197e-07 -0.0900016 0.1
+        rotation -0.8634360638098155 -0.3567056939851485 0.35670605768781916 1.717105927305669
+        children [
+          DEF WheelRight Shape {
+            appearance PBRAppearance {
+              baseColorMap ImageTexture {
+                url [
+                  "textures/checkered_parquetry.jpg"
+                ]
+              }
+              roughness 1
+              metalness 0
+              textureTransform TextureTransform {
+                scale 3 1
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        boundingObject USE WheelRight
+        physics Physics {
+        }
+      }
+    }
+    HingeJoint {
+      jointParameters HingeJointParameters {
+        position 640.0440497651746
+        axis 0 0 -1
+        anchor 6.10065e-07 -0.09 -0.1
+      }
+      device [
+        RotationalMotor {
+          name "motor left"
+        }
+      ]
+      endPoint Solid {
+        translation 1.8024029829106152e-06 -0.09000106692555247 -0.1
+        rotation -0.8452229415616282 -0.37788747522085747 0.37788786052096796 1.7381632687150739
+        children [
+          DEF WheelLeft Shape {
+            appearance PBRAppearance {
+              baseColorMap ImageTexture {
+                url [
+                  "textures/checkered_parquetry.jpg"
+                ]
+              }
+              roughness 1
+              metalness 0
+              textureTransform TextureTransform {
+                scale 3 1
+              }
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+            }
+          }
+        ]
+        boundingObject USE WheelLeft
+        physics Physics {
+        }
+      }
+    }
+    Solid {
+      translation 0 -0.0300441 0
+      children [
+        DEF body Shape {
+          appearance PorcelainChevronTiles {
+          }
+          geometry Cylinder {
+            height 0.14
+            radius 0.08
+          }
+        }
+      ]
+    }
+    Solid {
+      translation -0.07 -0.09 2.03924e-08
+      rotation 1 0 0 -1.5707953071795862
+      children [
+        DEF backwheel Shape {
+          appearance PBRAppearance {
+            baseColorMap ImageTexture {
+              url [
+                "textures/checkered_parquetry.jpg"
+              ]
+            }
+            roughness 1
+            metalness 0
+            textureTransform TextureTransform {
+              scale 3 1
+            }
+          }
+          geometry Cylinder {
+            height 0.03
+            radius 0.03
+          }
+        }
+      ]
+      name "bracket"
+      boundingObject USE backwheel
+      physics Physics {
+      }
+    }
+  ]
+  boundingObject Transform {
+    translation 0 -0.03 0
+    children [
+      USE body
+    ]
+  }
+  physics Physics {
+  }
+  controller "<extern>"
+}
