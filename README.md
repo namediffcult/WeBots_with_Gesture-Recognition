@@ -1,11 +1,18 @@
-# WeBots_with_Gesture-Recognition
-Homework Project
+# WeBots_with_Gesture-Recognition  |  Homework Project
 
-WeBots + MediaPipe
 
-Learn by: https://space.bilibili.com/13031745
+## WeBots + MediaPipe
 
-WeBots Environment
+### Learn by: https://space.bilibili.com/13031745
+
+### WeBots Environment
+
+Showing
+
+<audio id="audio" controls="" preload="none">
+      <source id="m4a" src="https://github.com/namediffcult/WeBots_with_Gesture-Recognition/blob/main/Video_Showing/20230505_.mp4">
+      </audio>
+
 
 ![Image text](https://github.com/namediffcult/WeBots_with_Gesture-Recognition/blob/main/WeBots_Screenshots/1.png)
 
@@ -13,7 +20,5 @@ WeBots Environment
 
 ![Image text](https://github.com/namediffcult/WeBots_with_Gesture-Recognition/blob/main/WeBots_Screenshots/3.png)
 
-Showing
 
-<video src="https://github.com/namediffcult/WeBots_with_Gesture-Recognition/blob/main/Video_Showing/20230505_.mp4" controls="controls" width="500" height="300"></video>
 
